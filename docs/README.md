@@ -6,7 +6,7 @@
 
 ### Class diagram
 
-![Class Diagram](diagram.png)
+![Class Diagram](../diagram.png)
 
 ##End point
 - A REST API application to get transactions from multiple provider with criteria
