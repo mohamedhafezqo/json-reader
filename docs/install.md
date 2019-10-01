@@ -12,7 +12,7 @@ docker-compose build
 docker-compose up -d
 docker-compose run php composer install
 ```
-- Open [http://localhost:8001/api/payment/transaction](http://localhost:8001);
+- Open [http://localhost:8001/api/payment/transaction](http://localhost:8001/api/payment/transaction);
 
 ### Alternative
 
