@@ -78,7 +78,7 @@ class FlypayBProvider extends BaseProvider implements ProviderInterface
     protected function isProviderExcluded(): bool
     {
         if (isset($this->getQuery()['provider'])
-            and  $this->getQuery()['provider'] !== ProviderTypeConstant::FLYPAY_A
+            and  $this->getQuery()['provider'] !== ProviderTypeConstant::FLYPAY_B
         ) {
             return true;
         }
