@@ -12,7 +12,7 @@ class ProviderTypeConstantTest extends WebTestCase
         $flypayAprovider = ProviderTypeConstant::FLYPAY_A;
         $flypayBprovider = ProviderTypeConstant::FLYPAY_B;
 
-        self::assertEquals('flypayA', $flypayAprovider);
-        self::assertEquals('flypayB', $flypayBprovider);
+        self::assertEquals('flypaya', $flypayAprovider);
+        self::assertEquals('flypayb', $flypayBprovider);
     }
 }
