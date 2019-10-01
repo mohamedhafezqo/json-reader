@@ -8,6 +8,6 @@ namespace App\Constant;
  */
 final class ProviderTypeConstant
 {
-    const FLYPAY_A = 'flypayA';
-    const FLYPAY_B = 'flypayB';
+    const FLYPAY_A = 'flypaya';
+    const FLYPAY_B = 'flypayb';
 }
