@@ -6,7 +6,7 @@
 
 ### Class diagram
 
-![Class Diagram](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![Class Diagram](diagram.png)
 
 ##End point
 - A REST API application to get transactions from multiple provider with criteria
@@ -30,8 +30,7 @@
             "statusCode": 1,
             "orderReference": "2e58bd43-0007",
             "provider": "flypayA"
-        },
-        ...
+        }
     ]
 }
 ```
