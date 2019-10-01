@@ -49,7 +49,7 @@ class FlypayAProvider extends BaseProvider implements ProviderInterface
     {
         $transactions = [];
 
-        if ($this->isProviderExcluded()) {
+        if ($this->isProviderExcluded(ProviderTypeConstant::FLYPAY_A)) {
             return $transactions;
         }
 
@@ -70,19 +70,5 @@ class FlypayAProvider extends BaseProvider implements ProviderInterface
         }
 
         return $transactions;
-    }
-
-    /**
-     * @return bool
-     */
-    protected function isProviderExcluded(): bool
-    {
-        if (isset($this->getQuery()['provider'])
-            and  $this->getQuery()['provider'] !== ProviderTypeConstant::FLYPAY_A
-        ) {
-            return true;
-        }
-
-        return false;
     }
 }

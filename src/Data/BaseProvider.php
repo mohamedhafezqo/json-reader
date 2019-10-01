@@ -65,4 +65,19 @@ abstract class BaseProvider
     {
         return $this->query;
     }
+
+    /**
+     * @param string $providerName
+     * @return bool
+     */
+    protected function isProviderExcluded(string $providerName): bool
+    {
+        if (isset($this->getQuery()['provider'])
+            and  strtolower($this->getQuery()['provider']) !== $providerName
+        ) {
+            return true;
+        }
+
+        return false;
+    }
 }
