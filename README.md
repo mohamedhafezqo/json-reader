@@ -2,7 +2,7 @@
 
 ### Requirement
 
-- Checkout [Fly356 task](https://github.com/fly365com/code-challenge/blob/master/backend-challenge/backend-challenge.md)
+- Checkout [Fly365 task](https://github.com/fly365com/code-challenge/blob/master/backend-challenge/backend-challenge.md)
 
 ### Class diagram
 
