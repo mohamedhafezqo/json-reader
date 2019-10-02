@@ -37,7 +37,7 @@
 
 ##### Criteria Examples:
 
-- link `[base-url]/api/payment/transaction?statusCode=authorised&amountMax=100&amountMin=80&provider=flypayA`
+- link `[base-url]/api/payment/transaction?statusCode=authorised&amountMax=1000&amountMin=500&provider=flypayA`
 
 - amountMin `/api/payment/transaction?amountMin=300` requirements=`"\d+"`
 - amountMax `/api/payment/transaction?amountMax=900` requirements=`"\d+"`
