@@ -47,6 +47,7 @@
 
 ### Installing
 
+- Create `.env` file from `.env.dist`
 - Run `docker-compose build`
 - Run `docker-compose up -d`
 - Run `docker-compose run php composer install` to install the dependencies.
