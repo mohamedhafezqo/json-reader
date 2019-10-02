@@ -67,6 +67,10 @@ class FlypayBProvider extends BaseProvider implements ProviderInterface
             if ($this->criteriaBuilder->isMatch($transaction, $this->getQuery())) {
                 $transactions[] = $transaction;
             }
+
+            if (count($transactions) >= ProviderTypeConstant::LIMIT) {
+                break;
+            }
         }
 
         return $transactions;
