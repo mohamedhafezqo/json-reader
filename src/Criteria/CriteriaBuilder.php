@@ -15,7 +15,7 @@ use Doctrine\Common\Collections\Criteria;
  */
 class CriteriaBuilder implements CriteriaBuilderInterface
 {
-    /** @var FilterFactoryInterface $criteriaFactory  */
+    /** @var FilterFactoryInterface $filterFactory  */
     private $filterFactory;
 
     /**
