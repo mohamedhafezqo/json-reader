@@ -8,6 +8,18 @@
 
 ![Class Diagram](diagram.png)
 
+### Efficiency of parsing streams/files
+
+Following table demonstrates a concept of the difference:
+
+| # | String items in memory at a time	 | Decoded PHP items in memory at a time | Total |
+| :---         |     :---:      |          ---: | ---: |
+| json_decode   | 10000 | 10000 | 20000 |
+| JsonMachine::fromStream    | 1       | 1      | 2 |
+
+This means, that JsonMachine::fromStream is constantly efficient for any size of processed JSON. 100 GB no problem.
+
+
 ## End point
 - A REST API application to get transactions from multiple provider with criteria
 
