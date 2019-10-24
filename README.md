@@ -17,7 +17,7 @@ Following table demonstrates a concept of the difference:
 | json_decode   | 10000 | 10000 | 20000 |
 | JsonMachine::fromStream    | 1       | 1      | 2 |
 
-This means, that JsonMachine::fromStream is constantly efficient for any size of processed JSON. 100 GB no problem.
+This means, that `Streaming` is constantly efficient for any size of processed JSON. 100 GB no problem.
 
 
 ## End point
