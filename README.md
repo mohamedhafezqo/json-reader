@@ -49,7 +49,8 @@ This means, that `Streaming` is constantly efficient for any size of processed J
 
 ##### Criteria Examples:
 
-- link `[base-url]/api/payment/transaction?statusCode=authorised&amountMax=1000&amountMin=500&provider=flypayA`
+- 
+- link `http://127.0.0.1:8001/api/payment/transaction?statusCode=authorised&amountMax=1000&amountMin=500&provider=flypayA`
 
 - amountMin `/api/payment/transaction?amountMin=300` requirements=`"\d+"`
 - amountMax `/api/payment/transaction?amountMax=900` requirements=`"\d+"`
